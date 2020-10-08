@@ -7,7 +7,7 @@ import (
 
 // Child class
 type Eagle struct {
-	BaseAnimal
+	*BaseAnimal
 	NumWings uint
 }
 

@@ -7,14 +7,14 @@ import (
 
 // Mythical child class
 type Gryphon struct {
-	Eagle
-	Lion
+	*Eagle
+	*Lion
 }
 
 func NewGryphon() *Gryphon {
 	return &Gryphon{
-		Eagle: *NewEagle(),
-		Lion:  *NewLion(),
+		Eagle: NewEagle(),
+		Lion:  NewLion(),
 	}
 }
 

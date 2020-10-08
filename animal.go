@@ -17,8 +17,8 @@ type BaseAnimal struct {
 	NumLegs uint
 }
 
-func NewAnimal(legs uint) BaseAnimal {
-	return BaseAnimal{NumLegs: legs}
+func NewAnimal(legs uint) *BaseAnimal {
+	return &BaseAnimal{NumLegs: legs}
 }
 
 func (self *BaseAnimal) Beak() bool {

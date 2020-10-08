@@ -7,7 +7,7 @@ import (
 
 // Another child class
 type Lion struct {
-	BaseAnimal
+	*BaseAnimal
 	Tails uint
 }
 
