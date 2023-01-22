@@ -1,3 +1,3 @@
-module gitlab.com/mjwhitta/multiple_inheritance
+module github.com/mjwhitta/multiple_inheritance
 
-go 1.15
+go 1.19
